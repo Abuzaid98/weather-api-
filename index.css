@@ -29,7 +29,7 @@ body{background:linear-gradient(135deg,#515050,#c3c3c3); min-height: 100vh;}
 .weather-detail h1{font-size: 80px; font-weight: 500;}
 .weather-detail h2{font-size: 45px; font-weight: 400; margin-top: -10px;}
 
-.loc{display: flex; ; align-items: center; padding: 0 19px; margin-top: 35px; text-align: left; font-size: 17.5px;}
+.loc{display: flex; ; align-items: center; padding: 0 19px; margin-top: 35px; text-align: left; font-size: 20px;}
 .loc img{width: 55px; margin-right: 10px;}
 
 .details{display: flex; align-items: center; justify-content: space-between; margin-top: 35px; padding: 0 20px;}
