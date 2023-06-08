@@ -41,6 +41,8 @@ body{background:linear-gradient(135deg,#515050,#c3c3c3); min-height: 100vh;}
 .humidity, .wind{font-size: 28px; margin-top: -6px;}
 
 @media (max-width:426px){
+    
+    .search input {padding: 10px 12px; height: 50px; margin-right: 8px; width: 80%;}
     .card {padding:15px;}
     .weather-detail h1 { font-size: 60px;}
     .weather-detail h2 { font-size: 40px;}
@@ -48,11 +50,10 @@ body{background:linear-gradient(135deg,#515050,#c3c3c3); min-height: 100vh;}
     .details {padding: 0;}
 }
 
+
 @media (max-width:391px){
-    .search input { width: 80%;}
 }
 @media (max-width:376px){
-    .search input {padding: 10px 12px; height: 50px; margin-right: 8px; width: 80%;}
     .search button{width: 50px; height: 50px;}
     .humidity, .wind { font-size: 20px;}
 }
@@ -60,7 +61,7 @@ body{background:linear-gradient(135deg,#515050,#c3c3c3); min-height: 100vh;}
 
 @media (max-width:321px){
     .card { padding: 10px; }
-    .search input { height: 45px; margin-right: 6px; width: 80%; font-size: 16px;}
+    .search input { height: 45px; margin-right: 6px; font-size: 16px;}
     .search button { width: 45px; height: 45px;}
     .weather-icon { width: 150px;}
     .latlon{font-size: 15px;}
